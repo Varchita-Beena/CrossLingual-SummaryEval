@@ -22,4 +22,7 @@ analyze_nearest_text_consistency.py: Performs text-based consistency analysis fo
 - analyze_nearest_event_labels.py: Compares extracted canonical nearest-event labels across models for English and Hindi run-1 outputs, measuring event-level and category-level agreement.
 - extract_claims_openai.py: Extracts atomic factual claims from generated summaries using OpenAI and saves structured claim lists for downstream factuality analysis.
 
+Following are the prompts used for the closed-ended and open-ended generation tasks. For Hindi experiments, the instruction “Answer only in Hindi” was added to each prompt.
+![Alt text]([path/to/image.png](https://github.com/Varchita-Beena/CrossLingual-SummaryEval/blob/main/prompts.png)) 
+
 
