@@ -23,6 +23,7 @@ analyze_nearest_text_consistency.py: Performs text-based consistency analysis fo
 - extract_claims_openai.py: Extracts atomic factual claims from generated summaries using OpenAI and saves structured claim lists for downstream factuality analysis.
 
 Following are the prompts used for the closed-ended and open-ended generation tasks. For Hindi experiments, the instruction “Answer only in Hindi” was added to each prompt.
-![Prompts](path/to/image.png](https://github.com/Varchita-Beena/CrossLingual-SummaryEval/blob/main/prompts.png) 
+
+![Prompts](https://github.com/Varchita-Beena/CrossLingual-SummaryEval/blob/main/prompts.png)
 
 
